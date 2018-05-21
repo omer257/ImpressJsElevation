@@ -248,70 +248,51 @@
             </p>
         </div>
         <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
-            <q>Lets talk a bit about CSS <b>frameworks</b><br>
-           So yes.. theres bootstrap!
+            <q>Lets talk a bit about CSS <b>animations</b><br>
+           there are a few ways to do it with css3
         </div>
-        <div id="ing" class="step" data-x="3900" data-y="-3650" data-rotate="270" data-scale="6"><br><br><br>
-            <p>But there are many <b class="positioning"><a target="blank" href="http://materializecss.com/">Materialize</a></b>, <b class="rotating">Framework 7</b> W3.CSS<br> (and many more) <br>Each with <b class="scaling">Cons</b> and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b class="scalingBig">Pros</b>                </p>
+        <div id="ing" class="step" data-x="3900" data-y="-3650" data-rotate="270" data-scale="6">
+            <p>CSS transitions allows you to change property values smoothly (from one value to another), over a given duration.
+            </p>
         </div>
 
         <div id="imagination" class="step" data-x="7900" data-y="-300" data-scale="5">
-            <p>They are great<br>But you must control <b class="imagination">Your CSS</b></p>
+            <p>transition<br>
+                transition-delay<br>
+                transition-duration	<br>
+                transition-property	<br>
+                <a href="https://www.w3schools.com/cssref/css3_pr_transition-timing-function.asp">transition-timing-function</a>
+
+            </p>
         </div>
 
         <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
-            <p>Each company uses a different CSS FRAMEWORK</p>
-            And sometimes... NONE
-            <q><a href="http://github.com/bartaz/impress.js">Flexible you must be</a></q>
+            <q>You can also use Keyframes animations</q><br>
+            how?
         </div>
 
         <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
-            <p>Lets code something :)</p>
+            <code style="font-size:31px;">
+                /* The animation code */
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+/* The element to apply the animation to */
+div {
+    animation-name: example;
+    animation-duration: 4s;
+}
+            </code>
         </div>
 
         <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
-            <p><span class="have">Lets</span> <span class="you">talk</span> <span class="noticed">about</span> <span class="its">Design</span></p>
-        </div>
-        <div class="step" data-x="8200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
-            <p>How can we approach a good design or our portfolio in general?</p>
-        </div>
-
-        <div class="step slide" data-x="9200" data-y="4300">
             <q>
-                <h3>Lets watch a few examples</h3>
-                <ul>
-                    <li><a target="blank" href="http://mattfarley.ca/">http://mattfarley.ca/</a></li>
-                    <li><a target="blank" href="http://www.danielfischer.com/">http://www.danielfischer.com/</a></li>
-                    <li><a target="blank" href="http://www.denisechandler.com/">http://www.denisechandler.com/</a></li>
-                    <li><a target="blank" href="https://imdev.in/">https://imdev.in/</a></li>
-                </ul>
+                Lets see it in <a href="https://codepen.io/Omer257/pen/aGXGME" target="blank">action</a>
             </q>
         </div>
-
-        <div class="step slide" data-x="10200" data-y="4300">
-            <q>
-                <ul class="ul" style="">
-                <li>Use proper fonts</li>
-                <li>Keep a good layout</li>
-                <li>Fast loading</li>
-                <li>Self explanatory</li>
-                <li>Tweak your css!</li>
-                <li>Test test test</li>
-                <li>Color pallete</li>
-                <li>Mobile</li>
-                <li>D.R.Y</li>
-                <li>K.I.S.S</li>
-            </ul>
-            <h3><a target="blank" href="http://www.theworldsworstwebsiteever.com/">Dont do this :) Official ugliest website -></a></h3>
-            </q>
-        </div>
-
-        <div class="step slide" data-x="11200" data-y="4300">
-            <q>
-                <h1 style="margin-left:30%;">Use the force</h1>
-                <img style="width:100%;" src="http://pa1.narvii.com/6345/1cce23b909d1aa88b32e423a51f9249eb3e0c340_hq.gif" alt="">
-            </q>
-        </div>
+        
 
     </div>
     <div class="hint">
